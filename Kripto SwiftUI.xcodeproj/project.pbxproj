@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D6213172933A031007E119B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6213162933A031007E119B /* Webservice.swift */; };
 		5DD4E7FF29339E4D0014FD9A /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD4E7FE29339E4D0014FD9A /* Currency.swift */; };
 		5DF76C5129339D6B0030C089 /* Kripto_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF76C5029339D6B0030C089 /* Kripto_SwiftUIApp.swift */; };
 		5DF76C5329339D6B0030C089 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF76C5229339D6B0030C089 /* MainView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D6213162933A031007E119B /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		5DD4E7FE29339E4D0014FD9A /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		5DF76C4D29339D6B0030C089 /* Kripto SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kripto SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF76C5029339D6B0030C089 /* Kripto_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kripto_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		5DD4E7FD29339E3C0014FD9A /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				5D6213162933A031007E119B /* Webservice.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				5DD4E7FF29339E4D0014FD9A /* Currency.swift in Sources */,
 				5DF76C5329339D6B0030C089 /* MainView.swift in Sources */,
+				5D6213172933A031007E119B /* Webservice.swift in Sources */,
 				5DF76C5129339D6B0030C089 /* Kripto_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
