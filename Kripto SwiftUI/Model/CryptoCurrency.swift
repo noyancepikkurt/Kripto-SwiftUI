@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Currency : Decodable, Identifiable {
+struct CryptoCurrency : Decodable, Identifiable {
     
     let id = UUID()
     let currency : String
@@ -15,7 +15,7 @@ struct Currency : Decodable, Identifiable {
     
     private enum CodingKeys : String, CodingKey {
         case currency = "currency"
-        case price = "prices"
+        case price = "price"
     }
     
 }
